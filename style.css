@@ -535,7 +535,6 @@
   .t-entry:nth-child(1) .t-node span{ background: var(--teal); }
   .t-entry:nth-child(2) .t-node span{ background: var(--mustard); color: var(--ink); }
   .t-entry:nth-child(3) .t-node span{ background: var(--brick); }
-  .t-entry .spacer{ }
   .t-entry.right .t-card{ grid-column: 3; }
   .t-entry.right .spacer{ grid-column: 1; }
   .t-entry.left .t-card{ grid-column: 1; }
