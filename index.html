@@ -1,29 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Myfirstwebsite_task</title>
-        <link rel="icon" type="image/x-icon" href="/images/download.jpg">
-
-    </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Notes — An Autobiography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <h2>Recarte R. Labador Jr.</h2>
 
-    <h3 style="color: rgb(51, 65, 70);"><b>BSIT Student Section-1</b></h3>
-    <hr>
-    <p style="color: rgb(13, 131, 101);">Hi! I am <b>Recarte R. Labador Jr.</b>, a BSIT student in Section-1.</p>
-    <hr>
+<header class="tag-nav">
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>R. Labador <small>&nbsp;field notes</small></div>
+    <nav class="tabs">
+      <a href="#about">About Me</a>
+      <a href="#hobbies">My Hobbies</a>
+      <a href="#favorites">My Favorites</a>
+    </nav>
+  </div>
+</header>
 
-    <h4>My Profile</h4>
-    <hr>
+<section class="hero">
+  <svg class="flight-path" viewBox="0 0 1160 420" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M -20 210 C 180 40, 420 340, 640 90 S 1040 260, 1160 60"/>
+    <circle class="plane" r="4" fill="#a54a34"/>
+  </svg>
+  <div class="marginalia" style="top:18%; left:4%; transform: rotate(-6deg);">not to<br>scale ↴</div>
+  <div class="marginalia" style="bottom:8%; left:8%; transform: rotate(3deg);">(still<br>editing)</div>
+  <div class="wrap">
+    <div class="hero-copy">
+      <div class="eyebrow">Vol. 01 — Personal Archive</div>
+      <h1>Notes from<br>a life <em>still</em><br>being written.</h1>
+      <p class="lede">A field journal of where I've been, what I love, and how I spend a Sunday afternoon — kept the way a traveler keeps a notebook: a little worn, mostly true.</p>
+      <div class="hero-facts">
+        <div><span class="num">30'</span><span class="lab">Born</span></div>
+        <div><span class="num">CDN</span><span class="lab">Home base</span></div>
+        <div><span class="num">05</span><span class="lab">Chapters logged</span></div>
+      </div>
+    </div>
+    <div class="polaroid-stage">
+      <figure class="polaroid">
+        <div class="tape"></div>
+        <div class="frame">
+         <img src="image/profile.jpg" alt="profile">
+        </div>
+        <figcaption>self, on paper</figcaption>
+        <div class="postmark">Est.<br>September 30<br>2007</div>
+      </figure>
+    </div>
+  </div>
+</section>
 
-    <img src="/images/profile.jpg" alt="picture 1"  height="180">
-    <hr>
-    <a href="https://www.facebook.com/ronnie.villamor.52493/">Visit this link to see his real face!</a>
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Childhood</span><span>Teenage Life</span><span>Adulthood</span><span>Hobbies</span><span>Favorites</span>
+    <span>Childhood</span><span>Teenage Life</span><span>Adulthood</span><span>Hobbies</span><span>Favorites</span>
+  </div>
+</div>
 
+<section id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Chapter One</div>
+        <h2>About Myself</h2>
+      </div>
+      <div class="idx">001 / 003</div>
+    </div>
 
+    <div class="id-card reveal">
+      <div class="id-photo">
+        <svg viewBox="0 0 96 96" width="96" height="96">
+          <circle cx="48" cy="38" r="18" fill="#e9decb"/>
+          <path d="M14 96c0-20 15-36 34-36s34 16 34 36z" fill="#e9decb"/>
+        </svg>
+      </div>
+      <div class="id-grid">
+        <div class="field"><div class="lab">Name</div><div class="val">Recarte R. Labador</div></div>
+        <div class="field"><div class="lab">Birthdate</div><div class="val">September 30 2007</div></div>
+        <div class="field"><div class="lab">Address</div><div class="val">D-9 Hinandaayan Camagong, Nasipit, Agusan del Norte</div></div>
+        <div class="field"><div class="lab">Course</div><div class="val">BSIT | Second year</div></div>
+      </div>
+    </div>
 
+    <div class="timeline">
+      <div class="t-entry left reveal">
+        <div class="t-card">
+          <h3>My Childhood</h3>
+          <p>My childhood was filled with happy memories, fun, and learning. I enjoyed playing with my friends, spending time with my family, and exploring new things. Even though there were challenges, those experiences helped me become stronger and taught me valuable life lessons. My childhood shaped who I am today, and I will always cherish the memories I made during those years.</p>
+        </div>
+        <div class="t-node"><span>01</span></div>
+        <div class="spacer"></div>
+      </div>
+      <div class="t-entry right reveal">
+        <div class="spacer"></div>
+        <div class="t-node"><span>02</span></div>
+        <div class="t-card">
+          <h3>My Teenage Life</h3>
+          <p>Teenage life in a small town is peaceful and simple. Everyone knows each other, so it is easy to make friends and feel part of the community. Teenagers often spend time outdoors, play sports, join local events, or hang out with friends and family. Although there may be fewer entertainment options than in a big city, a small town offers a safe environment, close relationships, and a slower pace of life that creates many meaningful memories.</p>
+        </div>
+      </div>
+      <div class="t-entry left reveal">
+        <div class="t-card">
+          <h3>My Adulthood</h3>
+          <p>My adulthood is a time of growth, responsibility, and learning. As an adult, I work hard to achieve my goals, make important decisions, and become more independent. I continue to learn from my experiences while balancing my studies, work, family, and personal life. Although adulthood comes with challenges, it also brings opportunities to grow, succeed, and build a better future.</p>
+        </div>
+        <div class="t-node"><span>03</span></div>
+        <div class="spacer"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hobbies">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Chapter Two</div>
+        <h2>My Hobbies</h2>
+      </div>
+      <div class="idx">002 / 003</div>
+    </div>
+
+    <div class="hobby-cols">
+      <div class="hobby-panel reveal">
+        <h3>Indoors <span class="stamp">quiet hours</span></h3>
+        <ul class="hobby-list">
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><rect x="3" y="14" width="18" height="6" rx="1"/><path d="M6 14V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8"/></svg></span>Playing piano<span class="tag-mono">EVENINGS</span></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18z"/></svg></span>Surfing the internet<span class="tag-mono">RABBIT HOLES</span></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><path d="M4 5c4-2 8-2 8 0v14c0-2-4-2-8 0zM20 5c-4-2-8-2-8 0v14c0-2 4-2 8 0z"/></svg></span>Reading books<span class="tag-mono">ONE CHAPTER</span></li>
+        </ul>
+      </div>
+      <div class="hobby-panel reveal">
+        <h3>Outdoors <span class="stamp">open air</span></h3>
+        <ul class="hobby-list">
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><circle cx="6" cy="17" r="3.2"/><circle cx="18" cy="17" r="3.2"/><path d="M6 17l4-9h4l3 5M10 8h3"/></svg></span>Biking<span class="tag-mono">TRAILS</span></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 8l8 8M16 8l-8 8"/></svg></span>Playing basketball<span class="tag-mono">WEEKENDS</span></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="3"/><path d="M2 20c0-4 3-6 6-6s6 2 6 6M13 20c0-3 3-5 6-5s6 2 6 5"/></svg></span>Hanging out with friends<span class="tag-mono">TABLE FOR FOUR</span></li>
+          <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1e2a30" stroke-width="1.6"><path d="M12 3v6M8 9l4-6 4 6M4 21c2-6 6-9 8-9s6 3 8 9"/></svg></span>Eating<span class="tag-mono">GOLDEN HOUR</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="favorites">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Chapter Three</div>
+        <h2>My Favorites</h2>
+      </div>
+      <div class="idx">003 / 003</div>
+    </div>
+    <div class="marginalia" style="position:static; margin: -30px 0 30px; transform: rotate(-2deg); font-size:1.05rem;">taped in, not filed away →</div>
+
+    <div class="fav-grid">
+      <div class="fav-card reveal">
+        <div class="pin"></div>
+       <img src="image/bruno.jpg" alt="bruno">
+        <div class="fav-body">
+          <span class="stamp">Sound</span>
+          <h3>Favorite Artist</h3>
+          <p>Bruno Mars is my favorite artist because his music is fun, energetic, and easy to enjoy. He can sing, dance, write songs, and perform at a very high level, making him a well-rounded entertainer. I like how he mixes different music styles such as pop, R&B, funk, soul, and reggae, so his songs never sound boring. His performances are full of energy, and his songs like "Just the Way You Are," "Locked Out of Heaven," and "That's What I Like" always put me in a good mood. His talent, creativity, and passion for music are the reasons why he is my favorite artist.</p>
+        </div>
+      </div>
+      <div class="fav-card reveal">
+        <div class="pin"></div>
+        <img src="image/adobo.jpg" alt="stake">
+        <div class="fav-body">
+          <span class="stamp">Taste</span>
+          <h3>Favorite Food</h3>
+          <p>Steak is my favorite food because it is flavorful, juicy, and satisfying. I enjoy its rich taste and tender texture, especially when it is cooked just the way I like it. Steak can also be paired with sides like mashed potatoes, vegetables, or rice, making it a delicious and filling meal. That's why it is my favorite food.</p>
+        </div>
+      </div>
+      <div class="fav-card reveal">
+        <img src="image/forest.jpg" alt="place">
+        <div class="fav-body">
+          <span class="stamp">Escape</span>
+          <h3>Favorite Place</h3>
+          <p>The forest is my favorite place because it is peaceful, quiet, and surrounded by nature. I enjoy the fresh air, the green trees, and the sounds of birds, which help me feel calm and relaxed. Spending time in the forest allows me to escape from the noise of everyday life and appreciate the beauty of nature. That's why the forest is my favorite place.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="seal">RL</div>
+  <p>All rights reserved · Recarte Labador</p>
+</footer>
 
 </body>
 </html>
